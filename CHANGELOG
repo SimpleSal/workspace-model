@@ -1,0 +1,40 @@
+------------------------------------------
+
+   This file believes that this file is:    CHANGELOG  in the repo root with the managed object.
+
+   This file is expected to be unique to the repository as it is metadata about the managed object.
+
+------------------------------------------
+
+=====================
+
+TruSoft Computing LLC
+
+ S~S  SimpleSal workspace model documents: CHANGELOG history of published content
+
+=====================
+
+ S~S  Release notes version 260106: repository activity: create the repository
+
+------------------------------------------
+
+    Instantiate the repository version control database from file system version control database.
+
+    This collection of documentation files were instantiated into the .\workspace-model\ directory.
+
+        1 a word about a model.txt
+        2 a word about workspace.txt
+        3 a word about instances.txt
+        4 a word about mediums.txt
+        5 a word about repositories.txt
+        6 a word about source control.txt
+
+    The only references to the image files are in this set of "a word about" files.
+
+        images\*.png
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.

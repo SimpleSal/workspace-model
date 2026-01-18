@@ -1,0 +1,106 @@
+
+    This file believes it is: \simplesal\workspace-model\6 a word about source control.txt
+    It is copyrighted because it exists; it has no value because it contains only opinions.
+
+    ----------------------------------------------------------------
+
+    The contents of this file are equivalent to a free post visible at "simplesal.substack.com".
+
+    The workspace model descriptions and source control mechanism descriptions in this file are
+    intended to present a context that the SimpleSal substack content can reference in posts.
+
+    TruSoft Computing's SimpleSal ecosystem moves a developer one step beyond setup/loop,
+    the first challenge is that one step is required into several dimensions at the same time.
+
+    This note assumes and addresses a moderately experienced software developer learning how to
+    develop software in a moderately sophisticated environment for a multi-component application.
+
+        Example: an App makes an LED blink on a gadget when a WiFi frame is received.
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------
+
+    There is always some form of source version control mechanism.
+    ==============================================================
+
+    A source-controlled modification sequence changing "x.h" into "x.h'" by a developer might be:
+
+      repo(x.h) -> medium(x.h) -> instance(x.h) -> instance(x.h') -> medium(x.h') -> repo(x.h')
+
+    The control of source file access is a core driver of the culture within the organization.
+
+    For example, a team member facilitating the use of SimpleSal might manage each user App's copy.
+
+    ----------------------------------------------------------------
+
+    Blobs
+    =====
+
+    The blob is the defined by the repository; the object in the blob is defined by the user.
+    The repository has information about the blob; the user has information about the object.
+
+    Blobs are file system things, with additional extensive attributes managed by the Repo App.
+    The fuzzy definition forces a developer to learn in their own environment what "blob" means.
+
+    ----------------------------------------------------------------
+
+    Metadata about blobs
+    ====================
+
+    Data about data is "metadata"; all information has an intended audience, some care about
+       the data known about the blob and some care about the data known about the blob's object.
+
+    Metadata included for humans as a database:
+        describes the README-type files managed by humans in order to communicate to humans;
+        describes the object from a view outside the object, as part of the blob, not the object;
+        "included for humans" as an audience allows software to also read the metadata;
+        is visible in the workspace of the developer using common tools and common formats.
+
+    Metadata in the repository as a database:
+        describes the collection [human metadata plus object] for the repository's purposes;
+        (usually) describes modifications made over Time to the object for Repo App users;
+        is visible to a Repo App with permission using private tools and private formats.
+
+    ----------------------------------------------------------------
+
+    Controlled Blobs
+    ================
+
+    The repository manages blobs.  For N users of the same blob, X of the N are making changes,
+    while Y of the N users are depending on a stable and specific implementation of the object.
+
+    Over Time, the primary use of change control is to serialize changes being made to objects.
+    At any point in Time, the primary use of change control is assuring the right file exists.
+
+    "controlled source files" means "a software developer retrieves a blob from a repository,
+    places the object contained in the blob into a work space, modifies the object and human
+    metadata within the blob, returns the modified blob with new blob metadata to the repository".
+
+    The repository does not control the contents of the blobs, objects, or metadata.
+    The developer does this within the context of the software development organization.
+
+    ----------------------------------------------------------------
+
+    Source Control dictates the file system organization
+    ====================================================
+
+    The repo blob determines the medium organization needed to transport the blob.
+
+    The SimpleSal blob model, with a layer for the blob and a layer for the object, allows a
+    developer to work on multiple instances of the same object.  A modification to the
+    "app-minimum" repo blob requires a medium and instance to receive the repo blob.  The
+    instance may have any name within the file system, allowing multiple instances by name.
+
+     Example:
+        "\instances\app-min-released\app-minimum\" and
+        "\instances\app-min-hacked\app-minimum\".
+
+    The object within each blob may be the same version of "app-minimum" or a different one.
+
+    The "\SimpleSal\" object added to the "app-minimum" SimpleSal directories may also vary.
+
+    Welcome to the first step into software development past one file with a setup and loop.
+
+    ----------------------------------------------------------------
+
+[END]

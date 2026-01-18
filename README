@@ -1,0 +1,120 @@
+------------------------------------------
+
+   This file believes that this file is:    README  in the repo root with the managed object.
+
+   This file is expected to be unique to the repository as it is metadata about the managed object.
+
+------------------------------------------
+=====================
+
+TruSoft Computing LLC
+
+ S~S  SimpleSal workspace model documents: README information about workspace model(s)
+
+=====================
+
+ S~S TruSoft Computing LLC (TSC LLC) SimpleSal Software Developer Workspace Assumptions
+
+------------------------------------------
+
+ S~S   SimpleSal is designed to peacefully co-exist within any development environment
+
+    The contents of the repo is a set of text files, numbered in suggested order of viewing.
+    The text files refer to a set of image (.PNG) files, each showing a repo task sequence.
+
+    The "model" is the organization of the files the developer is working on with an editor.
+    The "workspace" is an implementation of a model by a developer in order to edit files.
+    "Instances" are specific collections of files as defined by the repository database.
+    "Mediums" are versions of software that have come from or are going into the repository.
+    "Repositories" are databases accessible through the medium with data about the content.
+
+	This is only SimpleSal's view of the world; there is always a model, for good reasons.
+
+------------------------------------------
+
+=====================
+
+------------------------------------------
+
+  S~S The Elevator Pitch
+
+------------------------------------------
+
+    This README file is about the documentation provided through GitHub explaining the model
+    a consumer of SimpleSal software and documentation can use to navigate the content.
+
+    The implementation of a model requires choices about file types, technical style,
+    information detail level, vocabulary formality; these are all determined by the culture.
+
+    SimpleSal is focused on the developer being introduced to the idea, the content, and the
+    implementation of a moderately complex model sufficient and necessary for common tasks.
+
+    The contents of this repo address that moderately sophisticated developer in GitHub terms.
+
+------------------------------------------
+
+=====================
+
+ S~S The SimpleSal Ecosystem
+
+------------------------------------------
+
+  S~S The value of a 3-legged footstool
+
+    What is the increase in complexity when moving from three legs to four legs?  It is the
+    addition of the fourth leg that creates a need in the design for parallel lines and symmetry.
+    The four-legged footstool wobbles usually; the three-legged footstool is stable anywhere.
+    It probably is never truly level across the surface, but it is stable to stand on.
+
+    The SimpleSal three-legged stool is built from:
+
+    1) the published software in the repo:
+        GitHub /simplesal/SimpleSal repository, branch main-SimpleSal
+
+    2) the information within the repo about how to make use of the SimpleSal software:
+        \SimpleSal\ssDocs\Find and Open Documents.html          <web browser viewable>
+
+    3) the information about how to write signal algorithms using software
+        simplesal's substack.com website, most content free without a subscription, see below
+
+------------------------------------------
+
+ S~S Published information outside the repo's human metadata AND repo metadata.
+
+    This text is not-clickable information about free SimpleSal ecosystem of code and information.
+
+    The site includes pretty documents with colorful drawings constructed from circles and arrows.
+
+        Also, videos showing the effect of the annotated software being shown alongside the effect.
+
+    simplesal.substack.com          user "simplesal" on site "substack.com"
+
+------------------------------------------
+
+=====================
+
+------------------------------------------
+
+ S~S This Repository
+
+------------------------------------------
+
+ S~S  Documentation, text and image files, with no software content?  The repo's contents:
+
+    * Support SimpleSal ecosystem educational goals by providing free software source code.
+    * Provide software of moderate complexity that can be broken, fixed, improved, abandoned.
+    * Demonstrate the tradeoffs of performing software engineering tasks of moderate complexity.
+
+------------------------------------------
+
+ S~S  What happens in my workspace as a result of interacting with this repository?
+
+  * The instance in the workspace contains a copy of the contents of the managed object,
+    the .\workspace-model\ directory, AND human metadata files about the managed object.
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
+

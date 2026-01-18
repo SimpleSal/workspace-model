@@ -1,0 +1,109 @@
+
+    This file believes it is: \simplesal\workspace-model\2 a word about workspaces.txt
+    It is copyrighted because it exists; it has no value because it contains only opinions.
+
+    ----------------------------------------------------------------
+
+    The contents of this file are equivalent to a free post visible at "simplesal.substack.com".
+
+    The workspace model descriptions and source control mechanism descriptions in this file are
+    intended to present a context that the SimpleSal substack content can reference in posts.
+
+    TruSoft Computing's SimpleSal ecosystem moves a developer one step beyond setup/loop,
+    the first challenge is that one step is required into several dimensions at the same time.
+
+    This note assumes and addresses a moderately experienced software developer learning how to
+    develop software in a moderately sophisticated environment for a multi-component application.
+
+        Example: an App makes an LED blink on a gadget when a WiFi frame is received.
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------
+
+    A SimpleSal source control file issue that a user must take care of:
+    ====================================================================
+
+    Each version of \SimpleSal\ includes several ".start" files,
+        the first step is to copy them to \App\ and rename them to ".h".
+
+    If a user of SimpleSal does not perform this step (renaming a copy in \App\),
+    the incremental build-a-App-with-SimpleSal directions will fail.  Of course, the
+    incremental directions do instruct the user adding SimpleSal to an App of this step.
+
+    ----------------------------------------------------------------
+
+    There has to be a place for the stuff you are modifying: a working directory.
+    =============================================================================
+
+    The primary force on the software developer is the development environment itself;
+    an environment consists of multiple programs used to build the program described by the
+    collection of source files.  The environment is the primary force impacting work products,
+    organization, and style choices by the developer.  The environment is dictated by the boss.
+
+    The other force on the software developer is that any added sophistication quickly creates
+    multiples of things.  So now the model has to support multiple parallel/different copies.
+
+    The task of many developers is to change a program by modifying a collection of source files.
+    Certainly adopting an example and extending the content is modifying a collection in this model.
+
+    Working with collections of source files always involves a way to control content over Time.
+        Saving a backup copy before editing separates the two versions, both in content and Time.
+        Each method controls Truth: a file date/time on the disk or a database of metadata facts?
+
+    ----------------------------------------------------------------
+
+    Defining terms by using them in a sentence:
+    ===========================================
+
+    A "SimpleSal App" is one referencing SimpleSal in a directory somewhere when the build occurs.
+    IN THE MODEL, working directories are Arduino IDE SimpleSal Apps:
+        each has a copy of a SimpleSal subdirectory and the App's software files for edit and build.
+
+    The source control mechanism creates a copy of the collection that can be changed: an instance.
+
+    A SimpleSal App instance is comprised of a SimpleSal instance and an instance of the App.
+
+    Mediums are used to manage deltas between the Repository version and an instance's edited copy.
+
+    Repository Apps are used to interact with GitHub local or remote Repositories.
+
+
+    Modifications to Instances may include file attributes.  Read Only might be true for SimpleSal, for example.
+
+    Modifications to Mediums are a function of the developer moving files to/from the instances and repositories.
+
+    Modifications to Repositories are controlled by GitHub and must use GitHub applications and commands,
+
+    KEY CONCEPT:  Because a SimpleSal App is comprised of two managed objects, the objects
+        mirror the repository but the combination of the two objects is not in the repo.
+
+    An "Arduino IDE App" is one using the IDE to edit/build following all Arduino conventions.
+    An "Arduino IDE SimpleSal App" build references a copy of SimpleSal within the App instance.
+
+    ----------------------------------------------------------------
+
+    Source Control Root Purpose
+    ===========================
+
+    Whether the concepts are expanded out to exclusive locations for each, or compressed
+    down into a single location, the same concepts apply: repository -> workspace -> repository.
+
+    The '->' sequence is the mechanism used to transport an instance between the two: a medium.
+
+    The repository is the repository and is completely unexplained by anything in SimpleSal.
+
+    ----------------------------------------------------------------
+
+    Instantiating an Arduino IDE SimpleSal App
+    ==========================================
+
+    An instance of the App without SimpleSal is created in a directory,
+    and then an instance of SimpleSal is added to that directory.
+
+    For example, an App called "myApp", contained in a blob called "\myApp", which
+    contains "myApp.ino" (for Arduino).  The blob "\SimpleSal" needs to be added to
+    the App by placing an instance into the App's directory, e.g., "\myApp\SimpleSal".
+
+    ----------------------------------------------------------------
+
+[END]

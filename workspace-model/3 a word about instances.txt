@@ -1,0 +1,77 @@
+
+    This file believes it is: \simplesal\workspace-model\3 a word about instances.txt
+    It is copyrighted because it exists; it has no value because it contains only opinions.
+
+    ----------------------------------------------------------------
+
+    The contents of this file are equivalent to a free post visible at "simplesal.substack.com".
+
+    The workspace model descriptions and source control mechanism descriptions in this file are
+    intended to present a context that the SimpleSal substack content can reference in posts.
+
+    TruSoft Computing's SimpleSal ecosystem moves a developer one step beyond setup/loop,
+    the first challenge is that one step is required into several dimensions at the same time.
+
+    This note assumes and addresses a moderately experienced software developer learning how to
+    develop software in a moderately sophisticated environment for a multi-component application.
+
+        Example: an App makes an LED blink on a gadget when a WiFi frame is received.
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------
+
+    We are from the future
+    ======================
+
+    The software in the instance can be thought of as "the future version";
+        it contains what the repo will contain after a transfer back through the medium.
+
+    ----------------------------------------------------------------
+
+    A SimpleSal App instance has an App instance and a SimpleSal instance.
+    ======================================================================
+
+    Modifications to a SimpleSal App occur in a directory with the App.INO and a copy of SimpleSal.
+
+    A SimpleSal App under source control is a collection of repo instances; the collection is
+    considered a "SimpleSal App instance" only when assembled in a directory and built together.
+
+    The knowledge that the two separate repo objects ["app-minimum v1.0a", "SimpleSal v0.9m"],
+    taken together, are a source-controlled SimpleSal App is in the Developer's notebook or head.
+
+    The human metadata files (README, etc.) are a part of the repo managed objects, not the App.
+    They describe the contents of the managed object IN THE MODEL that is in this case an App.
+
+    ----------------------------------------------------------------
+
+    Visual Descriptions
+    ===================
+
+    See the images in the directory "\images\" for the file "devApp view of workspace.png".
+
+    Each object under source control has an instance, a medium, and a repository.
+        The source files travel to/from the repository through the medium from/to an instance.
+
+    ----------------------------------------------------------------
+
+    Structure of workspace flows from the repository
+    ================================================
+
+    Because an instance uses the medium as a signal carrier, the directory aligns with the medium.
+
+    ----------------------------------------------------------------
+
+    Local effects of the File System
+    ================================
+
+    Modifications to Instances are visible, indicated or described outside the repository by:
+
+        file attributes (Read Only might be true for SimpleSal, for example),
+
+        comments within the managed object by the Developer (a C file header, for example), and
+
+        the date and time changes caused in the file system by the modifications to the file,
+
+    ----------------------------------------------------------------
+
+[END]

@@ -1,0 +1,152 @@
+
+    This file believes it is: \simplesal\workspace-model\1 a word about a model.txt
+    It is copyrighted because it exists; it has no value because it contains only opinions.
+
+    ----------------------------------------------------------------
+
+    The contents of this file are equivalent to a free post visible at "simplesal.substack.com".
+
+    The workspace model descriptions and source control mechanism descriptions in this file are
+    intended to present a context that the SimpleSal substack content can reference in posts.
+
+    TruSoft Computing's SimpleSal ecosystem moves a developer one step beyond setup/loop,
+    the first challenge is that one step is required into several dimensions at the same time.
+
+    This note assumes and addresses a moderately experienced software developer learning how to
+    develop software in a moderately sophisticated environment for a multi-component application.
+
+        Example: an App makes an LED blink on a gadget when a WiFi frame is received.
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------
+
+    There is always a model to follow.
+    ==================================
+
+    SimpleSal is a educational lab for developing software on any platform, in any culture,
+    so SimpleSal source is complete and self-contained within a directory tree of source code.
+
+    It assumes a moderately sophisticated environment: multi-component platform, high-level language.
+
+         Example: an Arduino App makes an LED blink on a gadget platform every 2 seconds.
+
+    On the one hand:
+        SimpleSal's ecosystem moves a developer one step beyond setup/loop in a single C++ file.
+
+    On the other hand:
+        SimpleSal's ecosystem has example Apps with SimpleSal packaged into the background.
+
+    On the last hand:
+        SimpleSal's ecosystem introduces complexities commonly faced by software developers.
+
+    ----------------------------------------------------------------
+
+    Hey, try this!
+    ==============
+
+    A model is a suggestion for a way of doing things.
+
+    Why does a software developer need a workspace model?
+
+        The software development culture is always evolving in response to common troubles.
+
+        Acceptance of, and conformance to, the model proves that you want to be in the organization.
+
+    ----------------------------------------------------------------
+
+    What is different?
+    ==================
+
+    The SimpleSal convention IN THE MODEL is different than some "historical" repositories:
+        the root of the repository contains human metadata and a directory.
+
+    The managed content is a directory; the collection of objects is inside the directory.
+
+    The primary reason for this convention is it supports a development instance that is,
+    from the start, a self-contained directory of an Arduino App or SimpleSal.  The App may
+    reference SimpleSal after that blob is instantiated into the instance directory of the App.
+
+    For the developer, the collection of objects in the repo blob that are NOT there as
+    human metadata is the interesting part.  Metadata file changes are not about metadata files.
+
+    The human metadata seems increasingly intended to be input data for automated processes.
+
+    The files in '.\images\' have examples with comments about the pros and cons of the model.
+
+    ----------------------------------------------------------------
+
+    Where am I working?
+    ===================
+
+    The process of software development involves working with files on a computer system:
+        any file being modified must exist over Time in some space somewhere;
+        for many software developers, the space for modifying a file is
+            "a file storage system hosted by an Operating System on a computer platform";
+        the user interface to change files is an editing application that can access files;
+        the user interface to build the App is button-driven or a script that manipulates files.
+
+    The organization of the files is defined by the local software development culture.
+
+    The software development workspace model in SimpleSal's culture is based on directory trees.
+
+    ----------------------------------------------------------------
+
+    Visual Descriptions
+    ===================
+
+    The name of any instance is a developer's choice; a blob being modified is inside an instance.
+
+    The devApp might have a directory "software", for example, that might contain the
+        "instances", "mediums", and "repositories" directories.
+
+    An image of the instances and mediums that might be found in a SimpleSal workspace is
+        in the file within this repo called ".\images\devApp view of workspace.png".
+    The same image of the instances and mediums can be found with repo-view notes embedded
+        in the file within this repo called ".\images\repoApp view of workspace.png".
+
+    Purple icons flag something in the App instance the medium does not have: the App's SimpleSal.
+
+    An image of an instance/medium change compared to the repository original can be found
+        in the file within this repo called ".\images\Compare One Medium to Its Repository.png".
+
+    Red-lettered file names indicated a difference; note also the date and time of the file.
+
+    An image of the instance/medium change showing the instance matches the medium not the repo
+        in the file within this repo called ".\images\Compare One Instance to Its Medium.png".
+
+    ----------------------------------------------------------------
+
+    Let's be formal about the definition and use terms from SimpleSal: signal carriers.
+    ===================================================================================
+
+    At the highest level, a workspace is any directory with instances, mediums and repositories.
+        A developer working on multiple moderately-complex projects might have multiple workspaces.
+        The examples here have one workspace containing all instances, mediums, repositories.
+
+    Repositories are managed through the repository application, or, repoApp (remote or local).
+    Instances and mediums are managed through the developer's mind-application, or, devApp (local).
+
+    An instance IN THE MODEL is a signal in the form of a collection of files, mirroring
+        in content, but located independently in Time and space, from the medium and repository.
+
+        The software developer is the signal carrier for ideas created out of thin air that
+        result in changes to the signal in the instance to complete the development task.
+
+        The modifications are transported back to the source control repository using a medium.
+
+    A medium IN THE MODEL is the same collection of files by name and directories, mirroring
+        in content, but located independently from the instance and the repository.
+
+        The medium is the signal carrier between the developer instance and the repo database.
+        A developer editing files IN a repo is changing the instance and medium simultaneously.
+
+    A repository IN THE MODEL is a database containing repo blobs, and data about those blobs.
+        The repo's private metadata is outside the blob and is only accessible via the repo App.
+        A simple repo uses the blob's file system date and time as metadata, outside the blob.
+
+    A repository App IN THE MODEL uses Host OS and platform resources as the signal carrier
+        to transport a "repo blob".  A directory exists that is managed by the repo App.
+
+    ----------------------------------------------------------------
+
+[END]

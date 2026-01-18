@@ -1,0 +1,115 @@
+
+    This file believes it is: \simplesal\workspace-model\5 a word about repositories.txt
+    It is copyrighted because it exists; it has no value because it contains only opinions.
+
+    ----------------------------------------------------------------
+
+    The contents of this file are equivalent to a free post visible at "simplesal.substack.com".
+
+    The workspace model descriptions and source control mechanism descriptions in this file are
+    intended to present a context that the SimpleSal substack content can reference in posts.
+
+    TruSoft Computing's SimpleSal ecosystem moves a developer one step beyond setup/loop,
+    the first challenge is that one step is required into several dimensions at the same time.
+
+    This note assumes and addresses a moderately experienced software developer learning how to
+    develop software in a moderately sophisticated environment for a multi-component application.
+
+        Example: an App makes an LED blink on a gadget when a WiFi frame is received.
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------
+
+    The Repository App is your friend.
+    ==================================
+
+    Repositories are databases:
+        a user can put things in, move things around, publish things, keep things secrete, etc.
+
+    Repository Apps are used to interact with local or remote Repositories.
+    Repositories are central to most development organizations; software can be useful forever.
+
+    Modifications to Repositories are controlled modifications to the database,
+        which means the repository contents are completely under the control of the repository.
+
+    In the world of SimpleSal in 2026, the dominant source control mechanism is called "GitHub",
+    all references here use that name without limiting the definition of a repository or GitHub.
+
+    The primary distinction GitHub enjoys is the power of the owner of the repository to accept
+    or deny requests for changes to be pulled into the repository.  Early Apps did not have this.
+
+        Imagine the condition of Linux today, if they had not adopted this gatekeeper model.
+
+    ----------------------------------------------------------------
+
+    Lessons learned over the years
+    ==============================
+
+    Tags are the language of the repository
+    ---------------------------------------
+    The key data point for the developer is the state of a blob at some point in Time,
+    taken together with a version identifier or tag assigned at that same point in Time.
+
+    To create separation between versions, developers have the App tag a collection of files.
+    All of the files, in the condition the repo App knows they are in at that moment in Time,
+    are managed, moved, published as a coherent collection of the files, or, a tagged version.
+
+    The Repo App does not know the meaning of a tag; it only knows the blobs that were tagged.
+
+    Separation of Concerns reduces interdependencies
+    ------------------------------------------------
+    The SimpleSal model advocates separating software components in a software solution, based
+    on the knowledge they either need to be concerned with or not; this affects file content.
+
+    Developer task descriptions might designate a version of an App and a version of SimpleSal.
+    The SimpleSal version might be the latest released as an update.  The App version might
+    then need modifications.  The new pair of [modifiedApp, newSimpleSal] might be designated
+    a new tagged version; only the modified files in the App need to go back to the repo.
+
+    Repository Rules:
+    -----------------
+    Modifications to Repositories are controlled by the App and must use the App,
+        the directory contents are completely under the control of the App; Repository Rules.
+
+       Repository Rules are enforced and actions are taken depending on the culture.
+
+            In one model, a file is checked out, changed, logged, and committed to the repository.
+            No files outside of source control are allowed in the build and debug process.
+
+    	    Another model allows software not part of the software being modified to be present
+    	    in a working directory; or, a local not-checked-out instance of a blob may be edited.
+
+    Warning: edits made to files not checked out may be secretly and/or quietly "undone".
+             It is best to move files from the repository space and edit them elsewhere.
+             You can't outmaneuver, or outwit, the repo App.
+
+    ----------------------------------------------------------------
+
+    SimpleSal repository organization
+    =================================
+
+    The organization of a Repository is determined by the distributor of the objects in the blob.
+
+    The organization of the medium aligns with the repository but does not include repo metadata.
+
+    SimpleSal's model for repositories is the root of the repository contains the human metadata
+    about the object in the repository (README, etc.) and a single directory with the object itself.
+    This is dictated by Arduino requirements: the directory name and the .INO application name match.
+
+    There are N SimpleSal App repos ("app-*") and there is one SimpleSal repo ("simplesal").
+
+    The "app-" repos contain an object: a directory as Arduino requires with the human metadata.
+
+    The "simplesal" repository contains a directory called SimpleSal and the human metadata.  The
+    directory in the repo ("SimpleSal") must be copied to the directory containing an "app-.INO".
+
+    The version of SimpleSal from the repository present in the local directory is the version
+    of SimpleSal this App is built with.  An App does not need to reference external sources in
+    order to reference SimpleSal, with the exception of the mesa-based Time and Ascii services.
+
+    Incorporating the SimpleSal directory of an App into the App repository creates an App
+    source-control object but does not affect the official SimpleSal repository of SimpleSal.
+
+    ----------------------------------------------------------------
+
+[END]

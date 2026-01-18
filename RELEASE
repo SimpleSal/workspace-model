@@ -1,0 +1,68 @@
+------------------------------------------
+
+   This file believes that this file is:    RELEASE  in the repo root with the managed object.
+
+   This file is expected to be unique to the repository as it is metadata about the managed object.
+
+------------------------------------------
+
+=====================
+
+TruSoft Computing LLC
+
+ S~S  SimpleSal workspace model documents: RELEASE notes for the consumer
+
+=====================
+
+------------------------------------------
+
+ S~S Changes to a repository have been published by SimpleSal:
+
+ GitHub username            simplesal
+
+   repository               workspace-model
+
+     branch                 main-workspace-model
+
+       label on branch      release-260106      (for example)
+
+ Date of Publishment        January 6, 2026
+
+ TSC LLC Version Identifier 260106
+
+ Human version Identifier   v0.9a
+
+------------------------------------------
+
+=====================
+
+ S~S  Release notes version 260106: repository activity: create the repository
+
+------------------------------------------
+
+    Instantiate the repository version control database from file system version control database.
+
+    This collection of documentation files were instantiated into the .\workspace-model\ directory.
+
+        1 a word about a model.txt
+        2 a word about workspace.txt
+        3 a word about instances.txt
+        4 a word about mediums.txt
+        5 a word about repositories.txt
+        6 a word about source control.txt
+
+    The only references to the image files are in this set of "a word about" files.
+
+        images\*.png
+
+------------------------------------------
+
+=====================
+
+ Copyright (c) 2026  TruSoft Computing LLC.  All Rights Reserved.
+
+
+
+
+
+

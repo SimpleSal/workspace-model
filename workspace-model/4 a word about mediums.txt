@@ -1,0 +1,97 @@
+
+    This file believes it is: \simplesal\workspace-model\4 a word about mediums.txt
+    It is copyrighted because it exists; it has no value because it contains only opinions.
+
+    ----------------------------------------------------------------
+
+    The contents of this file are equivalent to a free post visible at "simplesal.substack.com".
+
+    The workspace model descriptions and source control mechanism descriptions in this file are
+    intended to present a context that the SimpleSal substack content can reference in posts.
+
+    TruSoft Computing's SimpleSal ecosystem moves a developer one step beyond setup/loop,
+    the first challenge is that one step is required into several dimensions at the same time.
+
+    This note assumes and addresses a moderately experienced software developer learning how to
+    develop software in a moderately sophisticated environment for a multi-component application.
+
+        Example: an App makes an LED blink on a gadget when a WiFi frame is received.
+
+    ----------------------------------------------------------------
+    ----------------------------------------------------------------
+
+    The Medium is the signal carrier between the repository and instance.
+    =====================================================================
+
+    ----------------------------------------------------------------
+
+    When is the signal complete?
+    ============================
+
+    Modifications to Mediums are only made for changes intended to flow out of and flow into the repository.
+
+       As a bridge between past and future, the version currently on the bridge may be compared to past or future.
+
+    	Comparisons between future and current are visible through Apps in the file system (e.g., BeyondCompare).
+        Comparisons between the past and current are visible through the version control manager application.
+
+    ----------------------------------------------------------------
+
+    The signal carried may be compared to the past and the future versions.
+    =======================================================================
+
+    Mediums are used to manage deltas between the Repository version of a file and an instance's edited copy.
+
+       There is an assumption, implicit or explicit, about the version it is, right now, in the file system.
+
+       Viewed as "the current master copy with all net changes": comparable to an instance AND a Repository.
+
+    ----------------------------------------------------------------
+
+    A medium is also a wall or bridge.
+    ==================================
+
+    This is the data medium that interconnects the dirty development directory and the clean repository.
+    This portal or the liminal space exists between "repo source control" and "user source control".
+
+    The structure of this portal directory matches the structure of the repository, and as a result,
+    the transfer from medium to instance also matches the structure and conventions of the repository.
+
+    The modern convention for naming software files/directories is to use the '-' character as a separator
+    between words; a convention followed for the INO file name, the App directory, and the repo itself.
+
+    This is because HERE is where the conventions meet for Arduino's App file rule (X.INO must be found
+    within a directory named X), and, GitHub's basis in Linux cultural history (naming established: 1974).
+    SimpleSal source files did not emerge from a Linux cultural context and so the '_' is used.  Sorry.
+
+    ----------------------------------------------------------------
+
+    Lessons learned affect current views.
+    =====================================
+
+    The reasoning behind a local mirror copy of the repository is based on personal version control incidents.
+
+    A medium directory makes it possible to view the differences between the instance and the repository
+    outside the scope of the version control interface, using a local favorite tool (e.g., Beyond Compare).
+
+    A medium directory is a user-friendly environment where changes can be staged and considered without
+    interference from, or shall we say, interaction with, the version control user interface.  After all
+    changes between the instance and the medium are visible, the files affected can be updated in the
+    repository, following the procedures and processes of the repository's bureaucratic environment.
+
+    The Windows GitHub Desktop will see files moved from a medium into the repo and analyze their difference.
+    A changed file placed into the repository file system will, when commited, be instantiated in the database.
+
+    ----------------------------------------------------------------
+
+    Other uses for the medium's content:
+    ====================================
+
+    A mediums directory with a stable copy of a repository's development tree could be referred to directly
+    by a build path directive.  The idea of mediums can apply to any source control repository interface.
+
+    The software metadata files (README, etc.) are editable in the medium directory if the culture allows it.
+
+    ----------------------------------------------------------------
+
+[END]
