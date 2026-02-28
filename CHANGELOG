@@ -1,8 +1,8 @@
 ------------------------------------------
 
-   This file believes that this file is:    CHANGELOG  in the repo root with the managed object.
+   This file thinks it is:    CHANGELOG  in the SimpleSal/workspace-model repository human metadata.
 
-   This file is expected to be unique to the repository as it is metadata about the managed object.
+   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\workspace-model\).
 
 ------------------------------------------
 
@@ -20,7 +20,7 @@ TruSoft Computing LLC
 
     Instantiate the repository version control database from file system version control database.
 
-    This collection of documentation files were instantiated into the .\workspace-model\ directory.
+    This collection of documentation files were instantiated into the rr\workspace-model\ directory.
 
         1 a word about a model.txt
         2 a word about workspace.txt

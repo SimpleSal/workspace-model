@@ -1,15 +1,15 @@
 ------------------------------------------
 
-   This file believes that this file is:    README  in the repo root with the managed object.
+   This file thinks it is:    README  in the SimpleSal/workspace-model repository human metadata.
 
-   This file is expected to be unique to the repository as it is metadata about the managed object.
+   The managed object, for TSC LLC repos, is a directory in the repo root (i.e., rr\workspace-model\).
 
 ------------------------------------------
 =====================
 
 TruSoft Computing LLC
 
- S~S  SimpleSal workspace model documents: README information about workspace model(s)
+ S~S  SimpleSal workspace model documents: README information about workspace models
 
 =====================
 
@@ -69,9 +69,9 @@ TruSoft Computing LLC
     The SimpleSal three-legged stool is built from:
 
     1) the published software in the repo:
-        GitHub /simplesal/SimpleSal repository, branch main-SimpleSal
+        GitHub username SimpleSal, simplesal repository, branch main-simplesal
 
-    2) the information within the repo about how to make use of the SimpleSal software:
+    2) the information within the published software about how to make use of SimpleSal software:
         \SimpleSal\ssDocs\Find and Open Documents.html          <web browser viewable>
 
     3) the information about how to write signal algorithms using software
@@ -81,7 +81,7 @@ TruSoft Computing LLC
 
  S~S Published information outside the repo's human metadata AND repo metadata.
 
-    This text is not-clickable information about free SimpleSal ecosystem of code and information.
+    This text is not-clickable information about the free SimpleSal ecosystem of code and documents.
 
     The site includes pretty documents with colorful drawings constructed from circles and arrows.
 
@@ -110,7 +110,7 @@ TruSoft Computing LLC
  S~S  What happens in my workspace as a result of interacting with this repository?
 
   * The instance in the workspace contains a copy of the contents of the managed object,
-    the .\workspace-model\ directory, AND human metadata files about the managed object.
+    the rr\workspace-model\ directory, AND human metadata files about the managed object.
 
 ------------------------------------------
 
